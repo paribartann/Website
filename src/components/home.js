@@ -9,6 +9,7 @@ const profName = "https://www.usm.edu/computing/faculty/bikramjit-banerjee";
 const competition = "http://sites.ieee.org/southeastcon2019/program/student-program/";
 
 class HomePage extends Component {
+
     render() {
         return (
             <div className="container">
@@ -20,7 +21,7 @@ class HomePage extends Component {
                 <h1 id="topElement">Paribartan Dhakal</h1>
                 <br />
                 
-                <Bar />
+                <Bar history={this.props.history}/>
                 <br /><br /><br />
                 
                 <div className="para">

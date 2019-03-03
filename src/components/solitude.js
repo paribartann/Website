@@ -1,45 +1,9 @@
 import React, { Component } from 'react';
 import '../css/essays.css'
-import CommentBox from './CommentBox';
-import Comments from './Comments';
 import Bar from '../components/bar';
 
 class Solitude extends Component {
 
-
-    constructor(props) {
-        super(props);
-
-        this.handleAddComment = this.handleAddComment.bind(this);
-
-        this.state = {
-            comments: []
-        }
-    }
-
-
-    handleAddComment(comment) {
-        this.setState(prevState => {
-            return {
-                comments: prevState.comments.concat(comment)
-            };
-        });
-    }
-
-    componentDidMount() {
-        /*global Ably*/
-        const channel = Ably.channels.get('comments');
-
-        channel.attach();
-        channel.once('attached', () => {
-            channel.history((err, page) => {
-                // create a new array with comments only in an reversed order (i.e old to new)
-                const comments = Array.from(page.items.reverse(), item => item.data)
-
-                this.setState({ comments });
-            });
-        });
-    }
 
     render() {
 
@@ -107,8 +71,7 @@ class Solitude extends Component {
                         <br />
                     </div>
                     <br /><br /><br />
-                    <CommentBox handleAddComment={this.handleAddComment} />
-                    <Comments comments={this.state.comments.reverse()} />
+                   
                 </div>
             </div>
         );
