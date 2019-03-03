@@ -1,0 +1,41 @@
+
+
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 700px;
+    line-height: 300px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+
+  .caraousel{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.ArticleOne{
+    padding-top: 50px;
+    width: 300;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ArticleTwo{
+    padding-top: 50px;
+    width: 300;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ArticleThree{
+    padding-top: 50px;
+    width: 300;
+    margin-left: auto;
+    margin-right: auto;
+}

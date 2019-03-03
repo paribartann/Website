@@ -1,0 +1,44 @@
+
+
+
+.essayBody{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+ 
+}
+
+.poems{
+  padding-left: 40%;
+}
+
+.poemiwill{
+  padding-left: 30%;
+}
+
+  #topElement{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-align: center
+  }
+
+
+  
+  #image1{
+      padding-left: 100px;
+      width: 90%;
+      height: auto;
+      position: relative;
+      display: inline-block;
+      
+  }
+
+  
+  #tab{
+    padding-left:5em
+  }
+
+
+  
