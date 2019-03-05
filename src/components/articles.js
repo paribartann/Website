@@ -31,8 +31,8 @@ class articles extends Component{
 
                             <Card style={{ width: "500px", marginLeft: "auto", marginRight:"auto" }} cover={<img alt="gosakinKunda" src="https://pbs.twimg.com/media/B6b4rq0CAAEDULR.jpg:large" width="500px" height="100%" />}
                             actions={[
-                                <Button>  <Link to="/gosainkunda"> <Icon type="read" /></Link>
-                                    </Button>
+                                <div> <Link to="/gosainkunda"> <Button> <Icon type="read" /> </Button> </Link> </div> 
+                                    
                                 
                                 ]}>
                                 
@@ -43,8 +43,10 @@ class articles extends Component{
                         <div className="ArticleTwo">
                             <Card style={{ width: "500px", height: "400px", marginLeft: "auto", marginRight:"auto" }} cover={<img alt="solitude" src="https://www.incimages.com/uploaded_files/image/970x450/getty_479780005_174901.jpg" width="500px" />}
                             actions={[
-                                <Button><Link to="/solitude"> <Icon type="read" /></Link></Button>
-                                ]}>
+
+                                <div> <Link to="/solitude"> <Button> <Icon type="read" /> </Button> </Link> </div> 
+                               
+                            ]}>
                                 
                                 <Meta title="Solitude" description="Poem"/>
                             </Card>
@@ -53,7 +55,9 @@ class articles extends Component{
                         <div className="ArticleThree">
                             <Card style={{ width: "300px", marginLeft: "auto", marginRight:"auto" }} cover={<img alt="rise" src="https://i.pinimg.com/originals/30/c1/f5/30c1f593531fc4a549b0afd1394778b7.jpg" width="500px" lineHeight="30%"/>}
                                 actions={[
-                                <Button><Link to="/iwllrise"><Icon type="read" /></Link></Button>
+
+                                    <div> <Link to="/iwllrise"> <Button> <Icon type="read" /> </Button> </Link> </div> 
+                                
                                 ]}>
                                 
                                 <Meta title="I Will Rise Again" description="Poem"/>
