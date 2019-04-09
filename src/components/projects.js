@@ -38,6 +38,16 @@ class projects extends Component{
                 </Card>
                 <br />
                 <h2 style={{textAlign:"center", fontSize: 30}}>Personal Projects</h2>
+
+                <Card className="card" title="NutriApp: Webbased FrontEnd" extra={<a href="https://github.com/paribartann/NutriAppFrontEnd" target="_blank" rel='noopener noreferrer'><Icon type="link" /> Github</a>}>
+                <p>
+                    This project was done in spring break 2019 where I created a web based login and signup page using NodeJs, Express, Mysql. This project covers 
+                    connecting with local database (MySQL) and validating username and password, and redirecting to main page after successful login. 
+                    This project will be continued further. 
+                </p>
+                </Card>
+
+                <br />
                 <Card className="card" title="Personal Website (this website)" extra={<a href="https://github.com/paribartann/personalWebsite" target="_blank" rel='noopener noreferrer'><Icon type="link" /> Github</a>}>
                 <p>
                     This project was created on the winter vacation of 2018 using React JS.
